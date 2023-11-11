@@ -17,7 +17,8 @@ def main():
     print("Oliot:")
 
     for player in players:
-        print(player)
+        if player.nationality == "FIN":
+            print(player)
 
 if __name__ == "__main__":
     main()

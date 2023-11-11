@@ -7,7 +7,7 @@ class Player:
         self.penalties = dict['penalties']
         self.team = dict['team']
         self.games = dict['games']
+        self.points = self.assists + self.goals
     
     def __str__(self):
-        if self.nationality == "FIN":
-            return f"{self.name:20} team {self.team}  goals {self.goals} assists {self.assists}"
+        return f"{self.name:20} team {self.team}  goals {self.goals} assists {self.assists} points {self.points}"

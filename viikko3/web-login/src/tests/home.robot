@@ -12,3 +12,9 @@ Click Login Link
 Click Register Link
     Click Link  Register new user
     Register Page Should Be Open
+
+
+
+*** Keywords ***
+Submit Credentials
+    Click Button  Login

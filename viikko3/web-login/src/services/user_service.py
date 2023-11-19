@@ -40,6 +40,9 @@ class UserService:
         if not username or not password:
             raise UserInputError("Username and password are required")
 
+        if not len(username) >= 3:
+            raise UserInputError("Too short username")
+
         # toteuta loput tarkastukset tänne ja nosta virhe virhetilanteissa
 
 

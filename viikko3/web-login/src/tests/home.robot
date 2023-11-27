@@ -14,7 +14,3 @@ Click Register Link
     Register Page Should Be Open
 
 
-
-*** Keywords ***
-Submit Credentials
-    Click Button  Login

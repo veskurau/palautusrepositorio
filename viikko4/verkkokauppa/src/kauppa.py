@@ -23,7 +23,8 @@ class Kauppa:
             self._varasto.ota_varastosta(tuote)
 
     def tilimaksu(self, nimi, tili_numero):
-        viite = self._viitegeneraattori.uusi()
-        summa = self._ostoskori.hinta()
+        if self._viitegeneraattori._seuraava != self._viitegeneraattori.uusi():
+            viite = self._viitegeneraattori.uusi()
+            summa = self._ostoskori.hinta()
 
-        return self._pankki.tilisiirto(nimi, viite, tili_numero, self._kaupan_tili, summa)
+            return self._pankki.tilisiirto(nimi, viite, tili_numero, self._kaupan_tili, summa)

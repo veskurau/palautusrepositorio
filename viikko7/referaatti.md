@@ -1,0 +1,5 @@
+Perinteiset menetelmät ovat menettäneet suosiotaan erilaisten haasteiden vuoksi, tämä on tehnyt tilaa Scrumin ja Kanbanin kaltaisille menetelmille. Scrum ja Kanban yhdistävät Lean-ajattelun periaatteet, kuten Kaizen-periaatteen. Scrumban on  Scrumin ja Kanbanin yhdistelmä, jota voidaan soveltaa projekteissa, joissa vaaitumukset muuttuvat nopeasti. 
+
+On havaittu, että näihin nopeasti muuttuviin vaatimuksiin vastaaminen Scrumissa on haastellista, koska iteraatiot on aikarajoitettu. Scrumban tarjoaa tähän vaihtoehtoja. Kanbanin ongelma on taas enemmän aikarajoitteiden puuttuminen ja tässä Scrumin päivätapaamiset ja retrospektiivit voivat auttaa. 
+
+Jokainen ohjelmistotuotantoprojekti on kuitenkin omanlaisensa eikä mikään yksi tietty prosessi sovi kaikkiin. Scrum ja Kanban ovat työkaluja prosessin kehittämisessä. Scrumban on seuras näiden kahden työkalun yhdistämisestä, jossa pyritään hyödyntämään parhaat käytännöt molemmista. Scrumban tarjoaa joustavan lähestymistavan nopeasti muuttuviin vaatimuksiin. Tärkeää on ymmärtää jokaisen projektin erityispiirteet ja muokata menetelmiä vastaamaan projektin tarpeita. 
